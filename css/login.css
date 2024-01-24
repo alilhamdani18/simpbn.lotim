@@ -1,13 +1,14 @@
 body {
   background-color: #ddd;
 }
+
 .img {
   width: 50px;
 }
 .title {
   width: 250px;
   margin-left: 10px;
-  line-height: 1rem;
+  line-height: 18px;
 }
 @media  screen and (max-width:500px) {
   body {

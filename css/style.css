@@ -1,5 +1,12 @@
+.navbar-brand {
+  color: #ffe207;
+}
+.navbar-brand:hover {
+  color: #fcc625;
+}
+
 .nav-link {
-  margin-right: 1.2rem;
+  margin: 0 1.6rem;
   color: #fff;
 }
 .nav-item .nav-link:hover {
