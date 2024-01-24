@@ -1,4 +1,4 @@
-.login-page {
+body {
   background-color: #ddd;
 }
 .img {
@@ -8,4 +8,9 @@
   width: 250px;
   margin-left: 10px;
   line-height: 1rem;
+}
+@media  screen and (max-width:500px) {
+  body {
+    background-color: #fff;
+  }
 }
