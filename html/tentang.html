@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../fontawesome-free-6.4.0-web/css/all.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="shortcut icon" href="../img/kemenag.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/kemenag.png" type="image/x-icon" />
   </head>
   <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-success sticky-top">
-      <div class="container">
+      <div class="container align-items-center">
         <a class="navbar-brand fs-3 fw-bold ms-5" href="#">SIMBI</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -26,11 +26,30 @@
               <a class="nav-link fw-semibold" href="tentang.html">Tentang</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-semibold" href="layanan.html">Layanan</a>
+              <div class="dropdown nav-link">
+                <a class="dropbtn fw-semibold text-decoration-none">Layanan</a>
+                <div class="dropdown-content">
+                  <a href="#">Simas</a>
+                  <a href="#">Simkah</a>
+                  <a href="#">Siwak</a>
+                  <a href="#">Simpenais</a>
+                </div>
+              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-semibold" href="data.html">Data</a>
+              <div class="dropdown nav-link">
+                <a class="dropbtn fw-semibold text-decoration-none">Data</a>
+                <div class="dropdown-content">
+                  <a href="#">Data Pernikahan</a>
+                  <a href="#">Data Masjid dan Mushalla</a>
+                  <a href="#">Data Wakaf</a>
+                  <a href="#">Data Penyuluh Agama</a>
+                </div>
+              </div>
             </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link fw-semibold" href="data.html">Data</a>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link fw-semibold" href="kontak.html">Kontak</a>
             </li>
