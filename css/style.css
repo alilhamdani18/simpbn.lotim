@@ -1,0 +1,12 @@
+.nav-link {
+  margin-right: 1.2rem;
+  color: #fff;
+}
+.nav-item .nav-link:hover {
+  color: #ffc107;
+}
+/* .navbar-brand::after {
+  content: ' ^';
+  position: relative;
+  top: 5px;
+} */
